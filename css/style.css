@@ -1,0 +1,38 @@
+.hidden {
+  display: none;
+}
+
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.deleteButton {
+  background-color: transparent;
+  border: none;
+  float: left;
+}
+
+body {
+  max-width: max-content;
+  margin: auto;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+li {
+  flex-basis: 100%;
+}
